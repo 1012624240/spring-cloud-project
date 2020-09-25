@@ -1,0 +1,7 @@
+spring:
+  application:
+    name : ordersService
+  cloud:
+    config:
+      uri : http://localhost:9003/
+      profile : release
